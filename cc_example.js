@@ -51,11 +51,17 @@
 // console.log(findEmployees(orders, "Alice"));
 
 //Task 8 
-let orders1 = [{id: 1, customer: "Alice"}, {id: 2, customer: "Bob"} ];
-let orders2 = [{id: 3, customer: "Charlie"}, {id:4, customer: "David"}];
+// let orders1 = [{id: 1, customer: "Alice"}, {id: 2, customer: "Bob"} ];
+// let orders2 = [{id: 3, customer: "Charlie"}, {id:4, customer: "David"}];
 
-function mergeOrders(orderA, orderB) {
-    return[...orderA, ...orderB];
-}
+// function mergeOrders(orderA, orderB) {
+//     return[...orderA, ...orderB];
+// }
 
-console.log(mergeOrders(orders1, orders2));
+// console.log(mergeOrders(orders1, orders2));
+
+//EXTRA:
+
+let employee = {name: "Alice", position: "Developer", salary: 70000.1234}
+
+console.log(`${employee.name} is a ${employee.postion} and makes $${employee.salary.toFixed(2)}`)
